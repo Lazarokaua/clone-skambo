@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "";
+    font-family: "Poppins";
 
 }
 
@@ -24,8 +24,6 @@ main{
     background-color: #36320A;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    display: flex;
     width:304px;
     height: 555px;
     border-radius: 16px 0 0 16px;
@@ -35,8 +33,8 @@ main{
 #logo{
     display: flex;
     align-items: center;
-    margin-right: 44px;
-
+    justify-content: flex-end;
+    margin: 148px 103px 3px 44px;
 }
 
     
@@ -59,49 +57,53 @@ main{
 
 
 .left > h1{
-    color: #FFF;
-    font-family: Poppins;
+    color: #FFFFFF;
+    width: 251px;
+    height: 56px;
     font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    margin: 10px;
+    font-weight: 600;
+    margin: 0px 0px 0px 53px;
+    text-align: top;
 }
 
 .left > h2{
-    color: #FFF;
-    font-family: Poppins;
+    color: #FFFFFF;
     font-size: 23px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin: 10px;
+    font-weight: 400;
+    margin: 0px 36px 59px 53px;
+    text-align: top;
 
 
 }
 
 #bnt{
-    background: #36320A;
-    color: #fff;
-    font-size: 23px;
-    font-weight: 700;
+    background-color: #36320A;
+    border-color: #FFFFFF;
     border-radius: 30px;
-    width: 232px;
+    border: solid 4px;
+    color: #ffff;
+    font-size: 23px;
+    font-weight: 600;
     height: 70px;
-    margin-top: 15px;
+    width: 232px;
     cursor: pointer;
-    border:4px solid white;
+    margin-bottom: 12px;
+    margin-left: 30px;
     
 
 }
 
 .left > h3{
-    color: #FFF;
-    font-family: Poppins;
+
+    color: #FFFFFF;
     font-size: 17px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+a{
+    color: #FFF;
+    margin-left: 55px;
 }
 
 .right{
@@ -112,5 +114,108 @@ main{
     width:944px;
     height: 555px;
     border-radius: 0 16px 16px 0;
+    background-color: #FEFAA1;
+
+}
+
+.right > h1{
+   
+    color: #000000;
+  
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.right > h2 {
+
+    font-size: 19px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.textfield{
+    width: 480px;
+    height: 60px;
+    border-radius: 16px;
+    background: #E2CE1A;
+    box-shadow: 0px 4px 4px 0px #E2CE1A;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 24px;
+    
+}
+
+
+.textfield > img{
+    position: absolute;
+    padding-left: 15px;
+    padding-top: 0;
+    width: 65px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 450px;
+    top: 35%;
+    
+}
+
+input{
+    border: none;
+    width: 480px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 16px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: #E2CE1A;
+    outline: none;
+    padding-left: 60px;
+
+}
+
+::placeholder{
+    position: absolute;
+    color: #000000;
+    font-size: 23px;
+    font-weight: 700;
+    top: 5%;
+    width: 201px;
+    height: 54px;
+    padding-top: 10px;
+    margin-left: -70px;
+    line-height: normal;
+    text-align: center;
+    
+}
+
+input:focus{
+    border-color: #36320A;
+   
+}
+
+.right > button{
+    border-radius: 30px;
+    background: #36320A;
+    width: 232px;
+    height: 70px;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+button:hover{
+
+    transition: 1s;
+    background: #000;
 
 }
